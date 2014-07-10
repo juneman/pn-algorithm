@@ -84,8 +84,7 @@ static void get_list(int *ls, int len, int *steps, int p) {
 
     clean(ls, len);
     ls[0] = 1;
-    if(p == 0) {
-    } else {
+    if(p != 0) {
         for(; i <= p; i++) {
             insert(ls, len, steps[i], i + 1);
         }
