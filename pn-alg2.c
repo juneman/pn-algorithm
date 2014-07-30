@@ -24,7 +24,7 @@ void gen(int *a, int size, int pos)
             a[i] = a[pos];
             a[pos] = tmp;
 
-            permgen(a,size, pos -1);
+            gen(a,size, pos -1);
 
             tmp = a[i];
             a[i] = a[pos];
