@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright (C) 2009-2014 dubin(db@dubin.me). All rights reserved.
+ * Copyright (C) 2009-2014 xxxx. All rights reserved.
  *
  *
  * changed log:
